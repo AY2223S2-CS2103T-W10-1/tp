@@ -10,7 +10,7 @@ import java.util.Set;
 import seedu.address.model.tag.Tag;
 
 /**
- * Represents a Module in the address book.
+ * Represents a Module in the module tracker.
  * Guarantees: details are present and not null, field values are validated, immutable.
  */
 public class Module {
@@ -149,6 +149,11 @@ public class Module {
         return builder.toString();
     }
 
+    /**
+     * A function to compare the values of TimeSlot.
+     * @param otherModule the Module with Timeslot.
+     * @return a sorted Module by Timeslot.
+     */
     public int compareTimeSlot(Module otherModule) {
         if (this.timeSlot.day == null) {
             //if this module has no timeslot, this module should be moved to the end of the sorted list.
@@ -160,6 +165,11 @@ public class Module {
         return this.timeSlot.compareTo(otherModule.timeSlot);
     }
 
+    /**
+     * A function to compare the values of Deadline.
+     * @param otherModule the Module with Deadline.
+     * @return a sorted Module by Deadline.
+     */
     public int compareDeadline(Module otherModule) {
         if (this.deadline.value == null) {
             //if this module has no deadline, this module should be moved to the end of the sorted list.

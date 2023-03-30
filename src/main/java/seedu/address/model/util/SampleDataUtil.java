@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import seedu.address.model.AddressBook;
-import seedu.address.model.ReadOnlyAddressBook;
+import seedu.address.model.ModuleTracker;
+import seedu.address.model.ReadOnlyModuleTracker;
 import seedu.address.model.module.Address;
 import seedu.address.model.module.Deadline;
 import seedu.address.model.module.Module;
@@ -17,7 +17,7 @@ import seedu.address.model.module.TimeSlot;
 import seedu.address.model.tag.Tag;
 
 /**
- * Contains utility methods for populating {@code AddressBook} with sample data.
+ * Contains utility methods for populating {@code ModuleTracker} with sample data.
  */
 public class SampleDataUtil {
     public static final String EMPTY_INPUT = "None.";
@@ -48,18 +48,18 @@ public class SampleDataUtil {
                 getTagSet("Lecture"), new Remark("Currently none."),
                 new Deadline("230323 15:00"), new Teacher("Currently none.")),
             new Module(new Name("MA2001"), new Resource("britannica.com/science/linear-algebra"),
-                new TimeSlot("Sunday 13:00 15:00"),  new Address("Online Learning :)"),
+                new TimeSlot("Sunday 13:00 15:00"), new Address("Online Learning :)"),
                 getTagSet("Lecture"), new Remark("Very interesting module."),
                 new Deadline(EMPTY_INPUT), new Teacher("Currently none."))
         };
     }
 
-    public static ReadOnlyAddressBook getSampleAddressBook() {
-        AddressBook sampleAb = new AddressBook();
+    public static ReadOnlyModuleTracker getSampleModuleTracker() {
+        ModuleTracker sampleMt = new ModuleTracker();
         for (Module sampleModule : getSampleModules()) {
-            sampleAb.addModule(sampleModule);
+            sampleMt.addModule(sampleModule);
         }
-        return sampleAb;
+        return sampleMt;
     }
 
     /**
