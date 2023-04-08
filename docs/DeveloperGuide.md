@@ -384,7 +384,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Use cases
 
-(For all use cases below, the **System** is the `Contact nUS` and the **Actor** is an `NUS computing student`, unless
+(For all use cases below, the **System** is the `coNtactUS` and the **Actor** is an `NUS computing student`, unless
 specified otherwise)
 
 **Use case 1: Delete a module**
@@ -392,9 +392,9 @@ specified otherwise)
 **MSS**
 
 1.  User requests to list items.
-2.  Contact nUS shows a list of items such as lectures.
+2.  coNtactUS shows a list of items such as lectures.
 3.  User requests to delete a specific lecture in the list.
-4.  Contact nUS deletes the module.
+4.  coNtactUS deletes the module.
 
     Use case ends.
 
@@ -406,7 +406,7 @@ specified otherwise)
 
 * 3a. The given index is invalid.
 
-    * 3a1. Contact nUS shows an error message.
+    * 3a1. coNtactUS shows an error message.
 
       Use case resumes at step 2.
 
@@ -415,9 +415,9 @@ specified otherwise)
 **MSS**
 
 1.  User requests to list items.
-2.  Contact nUS shows a list of items such as lectures.
+2.  coNtactUS shows a list of items such as lectures.
 3.  User requests to edit a specific attribute module in the list.
-4.  Contact nUS edits the specific attribute of the module.
+4.  coNtactUS edits the specific attribute of the module.
 
     Use case ends.
 
@@ -427,9 +427,9 @@ specified otherwise)
 
   Use case ends.
 
-* 3a. Contact nUS detects an incorrect format of an attribute(s)
+* 3a. coNtactUS detects an incorrect format of an attribute(s)
 
-    * 3a1. Contact nUS shows an error message.
+    * 3a1. coNtactUS shows an error message.
 
     * 3a2. User enters the information again.
 
@@ -437,9 +437,9 @@ specified otherwise)
 
       Use case resumes at step 4.
 
-* 3b. Contact nUS detects missing information in the command.
+* 3b. coNtactUS detects missing information in the command.
 
-    * 3b1. Contact nUS shows an error message.
+    * 3b1. coNtactUS shows an error message.
 
     * 3b2. User enters the information again.
 
@@ -452,15 +452,15 @@ specified otherwise)
 **MSS**
 
 1.  User adds a new module detail by entering the command.
-2.  Contact nUS adds and displays a newly added module detail to the user. <br>
+2.  coNtactUS adds and displays a newly added module detail to the user. <br>
 
     Use case ends.
 
 **Extensions**
 
-* 1a. Contact nUS detects an incorrect format of an attribute(s)
+* 1a. coNtactUS detects an incorrect format of an attribute(s)
 
-    * 1a1. Contact nUS shows an error message.
+    * 1a1. coNtactUS shows an error message.
 
     * 1a2. User enters the information again.
 
@@ -468,9 +468,9 @@ specified otherwise)
 
       Use case resumes at step 2.
 
-* 1b. Contact nUS detects missing information in the command.
+* 1b. coNtactUS detects missing information in the command.
 
-    * 1b1. Contact nUS shows an error message.
+    * 1b1. coNtactUS shows an error message.
 
     * 1b2. User enters the information again.
 
@@ -495,7 +495,7 @@ be able to accomplish most of the tasks faster using commands than using the mou
 
 * **Mainstream OS**: Windows, Linux, Unix, OS-X
 * **Private contact detail**: A contact detail that is not meant to be shared with others
-* **Module**: The module to be recorded in Contact nUS
+* **Module**: The module to be recorded in coNtactUS
 * **Address**: The location/venue for the class of a module
 * **Deadline**: The deadline for tasks of a module
 * **Name**: Name of a module

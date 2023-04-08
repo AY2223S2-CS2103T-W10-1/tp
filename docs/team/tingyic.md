@@ -3,9 +3,9 @@ layout: page
 title: Chew Ting Yi's Project Portfolio Page
 ---
 
-### Project: Contact nUS
+### Project: coNtactUS
 
-Contact nUS is a desktop **module tracker application** used for **students** to keep track of their **NUS modular
+coNtactUS is a desktop **module tracker application** used for **students** to keep track of their **NUS modular
 components.** The user interacts with it using a **Command Line Interface (CLI)**, while still having the benefits of a
 **Graphical User Interface (GUI)** created with JavaFX. It is written in Java.
 
@@ -25,7 +25,7 @@ Given below are my contributions to the project.
   * Coming soon!
 
 * **Enhancements to existing features**:
-  * Refactored `AddressBook` and its equivalents to either `Contact nUS` or `ModuleTracker` and their respective
+  * Refactored `AddressBook` and its equivalents to either `coNtactUS` or `ModuleTracker` and their respective
 equivalents.
 
 * **Documentation**:
@@ -33,10 +33,10 @@ equivalents.
     * Created a table-of-content.
     * Added a Valid and Invalid Data section.
     * Added more FAQs.
-    * Added documentation for all the commands of Contact nUS, with appropriate examples.
+    * Added documentation for all the commands of coNtactUS, with appropriate examples.
     * Added glossary and command summary.
   * Developer Guide:
-    * Adapted the UML diagrams of [AddressBook3]() to fit Contact nUS.
+    * Adapted the UML diagrams of [AddressBook3]() to fit coNtactUS.
     * Added MSS, Glossary and a few user stories.
 
 * **Community**:

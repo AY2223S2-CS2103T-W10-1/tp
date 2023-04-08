@@ -2,7 +2,7 @@
 
 ![Ui](docs/images/Ui.png)
 
-# This is Contact nUS.<br>
+# This is coNtactUS.<br>
 
 ## Target User:
 #### NUS Computing Students who are more tech-savvy than the general population and are also fast typists.
@@ -30,7 +30,7 @@ Coursemology)
 ## Project Website
 https://ay2223s2-cs2103t-w10-1.github.io/tp/
 
-* The project simulates an ongoing software project for a desktop application (called _Contact nUS_) used for managing
+* The project simulates an ongoing software project for a desktop application (called _coNtactUS_) used for managing
 module details.
   * It is **written in OOP fashion**. It provides a **reasonably well-written** code base **bigger** (around 6 KLoC)
   than what students usually write in beginner-level SE modules, without being overwhelmingly big.
