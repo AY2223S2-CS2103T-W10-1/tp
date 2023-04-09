@@ -8,12 +8,12 @@ Are you a NUS computing student who is struggling to keep track of your school m
 
 coNtactUS is a desktop application created by NUS computing students, specially for NUS computing students, just like you. It is a module tracker that lets you store information related to your modules like: 
 
-1) Lecture and tutorial timeslots
-2) Lecture and tutorial venues
-3) Deadlines
-4) Module official resources 
-5) Module notes
-6) Contact details of Professors and Teaching assistants
+1) Lecture and tutorial timeslots  
+2) Lecture and tutorial venues  
+3) Deadlines  
+4) Module official resources   
+5) Module notes  
+6) Contact details of Professors and Teaching assistants  
 
 and more.... 
 
@@ -33,7 +33,8 @@ familiarise yourself with the features of coNtactUS. It also shows you how to se
 on your computer.
 
 Alternatively, you may refer to the user guide to quickly view information regarding a particular feature that you are
-unsure of how to use.
+unsure of how to use.  
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -49,7 +50,9 @@ Symbols are used in the user guide to facilitate your understanding of the conte
 </div>
 
 <div markdown="span" class="alert alert-primary"> :exclamation: This indicates an important piece of information 
-that you should pay attention to. </div>
+that you should pay attention to. </div>  
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ## Table of Contents
@@ -85,6 +88,8 @@ that you should pay attention to. </div>
 * [**FAQ**](#faq)
 * [**Command summary**](#command-summary)
 
+<br>  
+
 --------------------------------------------------------------------------------------------------------------------
 ## Getting started
 
@@ -102,12 +107,17 @@ on your computer that you download the coNtactUS.jar file onto. This is relevant
 4. You should now see a window similar to the one shown below. 
 
   <div markdown="span" class="alert alert-primary"> :bulb: Note how sample data is already loaded into the application 
-for your reference. </div>
+for your reference. </div>  
+<br>  
 
 
-![Ui](images/Ui.png)
+<p align="center">
+  <img src="images/Ui.png">
+</p>
 
-Figure 1 : The starting window for the coNtactUS application.
+<div align="center">Figure 1 : The starting window for the coNtactUS application.</div>
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ## Familiarising yourself with the user interface 
@@ -115,10 +125,13 @@ Figure 1 : The starting window for the coNtactUS application.
 In case you are unsure of what you see in front of you now, we have come up with annotations to
 introduce you to the user interface. Do have a look at Figure 2 shown below. 
 
+<p align="center">
+  <img src="images/User_Interface.png">
+</p>
 
-![Ui](images/User_Interface.png)
+<div align="center">Figure 2: Annotations about the user interface</div>
 
-Figure 2: Annotations about the user interface
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ## Familiarising yourself with a module
@@ -136,6 +149,8 @@ fields.
 * RESOURCE: A link to a resource for the module, if any. 
 
 This is all you need to know for the time being. Now let's take a closer look at the commands.
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -166,6 +181,8 @@ command, refer to the next section.
 <div markdown="span" class="alert alert-primary"> :exclamation: The clear command removes all the modules in the 
 list. Only use it if you are sure! </div> 
 
+<br>  
+
 --------------------------------------------------------------------------------------------------------------------
 ## Features
 
@@ -181,12 +198,16 @@ This section introduces you to detailed information about how to use each comman
 * [Help command](#viewing-help--help)
 * [Exit command](#exiting-the-module-tracker--exit)
 
+<br>  
+
 --------------------------------------------------------------------------------------------------------------------
 ### Listing all modules: `list`
 
 By using the `list` command, you can list all the modules that you have stored in the module tracker.
 
 This is a straightforward command. To use it, all you have to type is `list`
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ### Adding a module: `add`
@@ -209,7 +230,12 @@ Examples of valid usages:
 * `add n/CS1101S t/Tutorial e/Monday 10:00 12:00 a/COM1-0217 s/Sam Wan`
 * `add n/CS2030S t/Lab a/COM1-B112 d/040423 23:59 r/Attendance not compulsory :)`
 
-![image](https://user-images.githubusercontent.com/82088609/230762259-5f9f5b2c-18d2-4e9b-9d27-6a07c99c6bcb.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/82088609/230762259-5f9f5b2c-18d2-4e9b-9d27-6a07c99c6bcb.png">
+</p>
+
+<div align="center">Figure 3 : Adding a new module into the tracker.</div>  
+<br>  
 
 Examples of invalid usages: 
 * `add n/CS2103T` - there is no description provided.
@@ -218,6 +244,8 @@ Examples of invalid usages:
 Note that there are format restrictions for some fields like `n/MODULE_NAME`, `t/DESCRIPTION`, `e/TIMESLOT`, and
 `d/DEADLINE`.
 Please refer to [format restrictions](#format-restrictions) to find out more.
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ### Deleting a module: `delete`
@@ -234,7 +262,13 @@ Format: `delete INDEX`
 
 Examples:
 *  `delete 2` deletes the 2nd module in the module tracker.
-![image](https://user-images.githubusercontent.com/82088609/230761749-73b7be3f-117d-42f5-bcc2-a1bbbe63fe6b.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/82088609/230761749-73b7be3f-117d-42f5-bcc2-a1bbbe63fe6b.png">
+</p>
+
+<div align="center">Figure 4 : Deleting a module from the tracker.</div>
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ### Editing a module: `edit`
@@ -260,7 +294,12 @@ Examples of valid usages:
 * `edit 2 a/COM3-B110 s/Professor Franklin Stein r/Funny lecturer haha` Edits the venue, teacher and remark of the 2nd
   module to be `COM3-B110`, `Professor Franklin Stein` and `Funny lecturer haha` respectively.
 
-![image](https://user-images.githubusercontent.com/82088609/230762280-a40ed804-c8a7-40cd-87ac-a921654ec1bd.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/82088609/230762280-a40ed804-c8a7-40cd-87ac-a921654ec1bd.png">
+</p>
+
+<div align="center">Figure 5 : Editing a module in the tracker.</div>  
+<br>  
 
   
 Examples of invalid usages:
@@ -271,6 +310,7 @@ Examples of invalid usages:
 Note that there are format restrictions for some fields like `n/MODULE_NAME`, `t/DESCRIPTION`, `e/TIMESLOT`, and
 `d/DEADLINE`. Please refer to [format restrictions](#format-restrictions) to find out more.
 
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -287,7 +327,14 @@ Format: `find KEYWORD`
 
 Examples:
 * `find CS2103T` finds all modules with name and/or description including the word `CS2103T`. 
-![image](https://user-images.githubusercontent.com/82088609/230762292-af7a1943-277f-499e-835f-0f4fec87f16d.png)
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/82088609/230762292-af7a1943-277f-499e-835f-0f4fec87f16d.png">
+</p>
+
+<div align="center">Figure 6 : Finding a module in the tracker.</div>
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ### Sorting the modules: `sort`
@@ -307,7 +354,13 @@ Tuesday, then a module with timeslot `Wednesday 05:00 - 07:00` will be shown bef
 * The `sort deadline` command will sort the modules based on their deadline.
 * For example, a module with deadline `250623` will be shown before a module with deadline `260623`.
 
-![image](https://user-images.githubusercontent.com/82088609/230762314-1a02a759-57a6-45e1-84cc-fad35ef77804.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/82088609/230762314-1a02a759-57a6-45e1-84cc-fad35ef77804.png">
+</p>
+
+<div align="center">Figure 7 : Sorting the modules in the tracker.</div>
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ### Clearing all modules: `clear`
@@ -315,6 +368,8 @@ Tuesday, then a module with timeslot `Wednesday 05:00 - 07:00` will be shown bef
 By using the `clear` command, you can remove all the modules from the module tracker. 
 
 * This is a straight-forward command, and all you have to type is `clear`
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ### Viewing help : `help`
@@ -324,11 +379,13 @@ to use the commands.
 
 * This is a straight-forward command, and all you have to type is `help`
 
-<div style="text-align: center;"> <image src = 
-"images/helpMessage.png"></image>
-</div>
+<p align="center">
+   <img src="images/helpMessage.png">
+</p>
 
-<div style="text-align: center;"> Figure : An example of the help window  </div>
+<div align="center">Figure 8 : Help window.</div>
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ### Exiting the module tracker: `exit`
@@ -336,6 +393,8 @@ to use the commands.
 By using the `exit` command, you can close and exit the application.
 
 * This is a straight-forward command, and all you have to type is `exit`
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -361,11 +420,13 @@ to enjoy its benefits!
 to display the pop-up window at any other point in time. However, this will be a future enhancement. Do take a look at 
 features [coming soon](#coming-soon) if you are interested. 
 
-<div style="text-align: center;"> <image src = 
-"https://user-images.githubusercontent.com/82088609/227960147-f26fae28-c2e7-44bf-bea1-a3d68a3539b5.png"></image>
-</div>
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/82088609/227960147-f26fae28-c2e7-44bf-bea1-a3d68a3539b5.png">
+</p>
 
-<div style="text-align: center;"> Figure : An example of the reminder window  </div>
+<div align="center">Figure 9 : Reminder window.</div>
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ## Format Restrictions
@@ -408,6 +469,8 @@ key in `230223`. It cannot be blank.
 If you are an advanced user who is concerned about further information regarding how you can use the commands of 
 coNtactUS, read on for the next section. 
 
+<br>  
+
 --------------------------------------------------------------------------------------------------------------------
 ## Further information about commands
 <div markdown="block" class="alert alert-info">
@@ -432,6 +495,9 @@ and `clear`), the input value will be ignored. For example, `help 123` will simp
 
 </div>
 
+<br>  
+
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## More examples of valid and invalid input values
@@ -443,21 +509,126 @@ You can refer to this section for more examples of valid and invalid input value
 **:exclamation: Note:** the examples given here are **not exhaustive!** They serve as a **guideline** so that you
 know what information are considered valid and what are not.<br>
 
-:bulb: ` ` refers to a blank value.
-</div>
+:bulb: <code> </code> refers to a blank value.
+</div>  
 
-| Attributes  | Valid                                                            | Invalid                                                            |
-|-------------|------------------------------------------------------------------|--------------------------------------------------------------------|
-| MODULE_NAME | `CS2103T` `CS 2101` `gea1000` `ST2334` `Programming Methodology` | ` ` `C$2103T` `CS2101!!` `CS21.01`                                 |
-| TAG         | `Lecture` `Tutorial` `Assignment2` `lab` `PROJECT` ` `           | ` ` `Assignment 2` `l@b`                                           |
-| TIMESLOT    | `Friday 12:00 14:00` `Tuesday 09:00 10:00`                       | ` ` `Mon 12:00 14:00` `Wednesday 7:00 8:00` `Thursday 11:00 10:00` |
-| VENUE       | `COM1` `COM 3.` `com1-0117`                                      | ` `                                                                |
-| TEACHER     | `Damyth.` `Prof John Lee` `Dr Ch'ng` `mr. anderson`              | ` `                                                                |
-| DEADLINE    | `100423 23:59` `120423 11:00` `280223 09:00` `290224 12:00`      | ` ` `10423 23:59` `320423 11:00` `290223 09:00` `290224 25:61`     |
-| REMARK      | `Hard module.` `Can S/U.` `Rewatch` `PAY ATTENTION`              | ` `                                                                |
-| RESOURCE    | `www.google.com` `WWW.YOUTUBE.COM` `WwW.GmAiL.cOm`               | ` `                                                                |
---------------------------------------------------------------------------------------------------------------------
+<table class="center">
+  <tr>
+    <th>Attributes</th>
+    <th>Valid</th>
+    <th>Invalid</th>
+  </tr>
+  <tr>
+    <td>MODULE_NAME</td>
+    <td>
+      <code>CS2103T</code>
+      <code>CS 2101</code>
+      <code>gea1000</code>
+      <code>ST2334</code>
+      <code>Programming Methodology</code>
+    </td>
+    <td>
+      <code> </code>
+      <code>C$2103T</code>
+      <code>CS2101!!</code>
+      <code>CS21.01</code>
+    </td>
+  </tr>
+  <tr>
+    <td>TAG</td>
+    <td>
+      <code>Lecture</code>
+      <code>Tutorial</code>
+      <code>Assignment2</code>
+      <code>lab</code>
+      <code>PROJECT</code>
+    </td>
+    <td>
+      <code> </code>
+      <code>Assignment 2</code>
+      <code>l@b</code>
+    </td>
+  </tr>
+  <tr>
+    <td>TIMESLOT</td>
+    <td>
+      <code>Friday 12:00 14:00</code>
+      <code>Tuesday 09:00 10:00</code>
+    </td>
+    <td>
+      <code> </code>
+      <code>Mon 12:00 14:00</code>
+      <code>Wednesday 7:00 8:00</code>
+      <code>Thursday 11:00 10:00</code>
+    </td>
+  </tr>
+  <tr>
+    <td>VENUE</td>
+    <td>
+      <code>COM1</code>
+      <code>COM 3.</code>
+      <code>com1-0117</code>
+    </td>
+    <td>
+      <code> </code>
+    </td>
+  </tr>
+  <tr>
+    <td>TEACHER</td>
+    <td>
+      <code>Prof Damyth.</code>
+      <code>Mr. John Lee</code>
+      <code>Dr Ch'ng</code>
+      <code>anderson</code>
+    </td>
+    <td>
+      <code> </code>
+    </td>
+  </tr>
+  <tr>
+    <td>DEADLINE</td>
+    <td>
+      <code>100423 23:59</code>
+      <code>120423 11:00</code>
+      <code>280223 09:00</code>
+      <code>290224 12:00</code>
+    </td>
+    <td>
+      <code> </code>
+      <code>10423 23:59</code>
+      <code>320423 11:00</code>
+      <code>290223 09:00</code>
+      <code>290224 25:61</code>
+    </td>
+  </tr>
+  <tr>
+    <td>REMARK</td>
+    <td>
+      <code>Hard module.</code>
+      <code>Can S/U</code>
+      <code>rewatch</code>
+      <code>PAY ATTENTION</code>
+    </td>
+    <td>
+      <code> </code>
+    </td>
+  </tr>
+  <tr>
+    <td>RESOURCES</td>
+    <td>
+      <code>www.google.com</code>
+      <code>WWW.YOUTUBE.COM</code>
+      <code>WwW.GmAiL.cOm</code>
+    </td>
+    <td>
+      <code> </code>
+    </td>
+  </tr>
+</table>  
 
+<br>  
+
+--------------------------------------------------------------------------------------------------------------------  
 
 ## Data Storage
 
@@ -478,6 +649,8 @@ If your changes to the data file makes its format invalid, coNtactUS will discar
 data file at the next run.
 </div>
 
+<br>  
+
  --------------------------------------------------------------------------------------------------------------------
 ## Current product limitations (Important)
 
@@ -486,16 +659,19 @@ Note that currently, coNtactUS does not enforce any additional checks for confli
 
 * For example, you will be allowed to create two module listings as follows.
 
-<div style="text-align: center;"> <image src = 
-"images/noConflictChecks.png"></image>
-</div>
+<p align="center">
+   <img src ="images/noConflictChecks.png">
+</p>
 
-<div style="text-align: center;"> Figure : An example of the help window  </div>
+<div align="center">Figure 10 : Two modules with the same teacher.</div>  
+<br>  
 
 * It might not make sense to have the same teacher `Bob`, teaching two different classes 
 that are located at different venues (`LT-19` and `COM1-B1`) at the same timing (`Monday 11:00 15:00`). However, we 
 felt that this allows you the flexibility to supply an input value that you desire without being subjected to unnecessary
 conflict checks. After all, `Bob` may be referring to two different persons. 
+
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ## Coming soon
@@ -507,11 +683,31 @@ Here are some new features that you can look forward to in the near future:
 view this reminder pop-up window at any moment while you are using coNtactUs. This is why we will be adding a command
 for you to do so, so you can see the reminders at any time you wish. 
 
+<br>  
 
  --------------------------------------------------------------------------------------------------------------------
 ## Glossary
 
-Some text here
+If you have any confusion about some of the technical terms used in this user guide, you may 
+refer to the glossary below.  
+
+#### Attribute  
+Refers to a specific input value from the user that provides details to execute a command. Attributes, except for
+are preceded by their prefixes. Example includes ```n/MODULE_NAME``` and ```d/DEADLINE```. 
+
+#### Command Word  
+Refers to the keyword in a valid user command. Examples include ```add```, ```edit``` and ```delete```.  
+
+#### Module Tracker  
+Refers to the application used to track the entries of different modules input by users.  
+
+#### Prefix  
+Refers to a character ending in a slash ("/") that precedes an attribute value. It indicates the type of
+information to follow. Example includes ```a/``` as prefix for ```VENUE``` attribute and ```s/```
+as prefix for ```TEACHER``` attribute.  
+
+<br>  
+
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -523,6 +719,7 @@ at the location `[JAR file location]/data/moduletracker.json` on your current co
 
 **Q**: Can I only exit coNtactUS through the `exit` command? <br>
 **A**: Not at all! It is one of the ways you can exit the program. You may also simply close the browser window.
+<br>  
 
 --------------------------------------------------------------------------------------------------------------------
 ## Command summary
